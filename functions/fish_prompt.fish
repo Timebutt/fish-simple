@@ -11,7 +11,7 @@ function fish_prompt -d "Simple fish prompt"
 
     # current working directory
     printf " in "
-    print_color yellow (prompt_pwd)
+    print_color yellow (pwd)
 
     # git
     if git_is_repo
